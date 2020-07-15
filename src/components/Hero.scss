@@ -1,0 +1,23 @@
+.hero {
+    position: relative;
+    color: var(--color-white);
+
+    &__descript {
+        position: absolute;
+        top: 50%;
+        left: 224px;
+        transform: translateY(-50%);
+
+        & h1 {
+            margin-bottom: 13px;
+        }
+    }
+
+    &__text {
+        max-width: 810px;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 43px;
+        margin-bottom: 18px;
+    }
+}
